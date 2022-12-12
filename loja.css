@@ -1,0 +1,14 @@
+
+.logo{
+    height: 60px;
+}
+.h1{
+    color: white; text-shadow: black 0.1em 0.2em 0.3em;
+}
+.carousel-item{
+    height: 500px;
+}
+.produtos h1{
+    text-shadow: black 0.1em 0.2em 0.3em; 
+    font-size: 35px;
+}

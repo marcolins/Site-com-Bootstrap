@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="loja.css">
+    <title>Site com Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <header>
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+              <div>
+                <img src="imagens/logo.png" class="logo" alt="logo-loja">
+              <span class="navbar-brand mb-0 mx-2 h1">Master Tech Eletrônicos</span>
+              </div>                
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link text-dark bg-gradient-2" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Produtos</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <section>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img class="d-block w-100" src="slide1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="slide2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="slide3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+    </section>
+    <section>
+      <div class="container mb-5 bg-light text-dark">
+        <div class="row">
+          <div class="col-sm-12 text-dark text-center my-2 produtos"><h1>Produtos</h1>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+              <div class="card border-dark">
+                <img class="card-img-top" src="1.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">FONE BLUETOOTH</h5>
+                  <p class="card-text">Ouça suas músicas de qualidade digital sem fio e alterne os modos de reprodução de música. 
+                    Suporta dispositivos dispositivos que permitam conexão sem fio.</p>
+                  <a href="#" class="btn btn-success">Comprar</a>
+                </div>
+              </div>
+            </div>
+             
+            <div class="col-sm-4">
+              <div class="card border-dark">
+                <img class="card-img-top" src="2.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">CONTROLE PLAY STATION 5</h5>
+                  <p class="card-text">O controle sem fio DualSense oferece resposta tátil, efeitos de gatilho adaptáveis e um microfone embutido, tudo em um design icônico e confortável.</p>
+                  <a href="#" class="btn btn-success">Comprar</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card border-dark">
+                <img class="card-img-top" src="3.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">FONE BLUETOOTH BRANCO</h5>
+                  <p class="card-text">Fabricado em material de alta qualidade.
+                    Bateria de lítio embutida, totalmente recarregável.                    
+                    Totalmente ajustável, macio e confortável de usar.                    
+                    </p>
+                  <a href="#" class="btn btn-success">Comprar</a>
+                </div>
+              </div>
+            </div>
+          
+          </div>          
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-fluid bg-dark">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="text-light bg-dark p-3 mb-0 text-center">Desenvolvido por: Marco Antonio Lins</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
